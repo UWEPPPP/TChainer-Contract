@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "InvokeResponse",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "domainToAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "domain",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "method",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "args",
+						"type": "string"
+					}
+				],
+				"name": "invoke",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "domain",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Data Transmisson To BlockChain Frame/DnsContract.sol": "DnsContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Data Transmisson To BlockChain Frame/DnsContract.sol": {
+			"keccak256": "0xb45fc72d9631ca84a91d5077a8b82a6a4981b00fef11e04d93e7184447f47991",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad2ff4c455fb0caf940aa8e92e1c1f5211db5e359fb1d531cf4f0124022240a2",
+				"dweb:/ipfs/QmXi983eBcNY2wbfUMAd522ks5vHf7MnU7SqNkxviqjagn"
+			]
+		},
+		"Data Transmisson To BlockChain Frame/VerifierContract.sol": {
+			"keccak256": "0x024d3257f1dda6c03f54ff89684122f772e4c7780517615b9aa265ec6e2a3262",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0a0903a114e4bc422d93cef58cca9333c4cee9b58a269cdfcd2fd3d3af1321f",
+				"dweb:/ipfs/QmdMecBLjEiqsbNkXYpNE3tXP8mCNjnBPyXwzeYZoT7TRk"
+			]
+		}
+	},
+	"version": 1
+}

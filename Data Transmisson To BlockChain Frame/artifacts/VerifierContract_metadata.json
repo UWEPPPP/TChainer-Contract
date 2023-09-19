@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "admin",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "checkRole",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "removeRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint8",
+						"name": "role",
+						"type": "uint8"
+					}
+				],
+				"name": "setRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"checkRole(address)": {
+					"params": {
+						"addr": "查看权限的地址*"
+					}
+				},
+				"removeRole(address)": {
+					"params": {
+						"addr": "被删除权限者的地址*"
+					}
+				},
+				"setRole(address,uint8)": {
+					"params": {
+						"addr": "被赋予权限者的地址",
+						"role": "被赋予的权限等级*"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"checkRole(address)": {
+					"notice": "查看权限"
+				},
+				"removeRole(address)": {
+					"notice": "删除权限"
+				},
+				"setRole(address,uint8)": {
+					"notice": "设置权限"
+				}
+			},
+			"notice": "权限控制合约*",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Data Transmisson To BlockChain Frame/VerifierContract.sol": "VerifierContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Data Transmisson To BlockChain Frame/VerifierContract.sol": {
+			"keccak256": "0x024d3257f1dda6c03f54ff89684122f772e4c7780517615b9aa265ec6e2a3262",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e0a0903a114e4bc422d93cef58cca9333c4cee9b58a269cdfcd2fd3d3af1321f",
+				"dweb:/ipfs/QmdMecBLjEiqsbNkXYpNE3tXP8mCNjnBPyXwzeYZoT7TRk"
+			]
+		}
+	},
+	"version": 1
+}
