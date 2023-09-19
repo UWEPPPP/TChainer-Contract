@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.13.1.
+ * Original file: /npm/Base@1.0.0/app.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+var express=require("express"),app=express(),bodyParser=require("body-parser"),port=process.env.PORT||3e3;app.set("views",__dirname+"/views"),app.engine("jade",require("jade").__express),app.set("view engine","jade"),app.use(express.static(__dirname+"/public")),app.use(bodyParser.json()),app.use(bodyParser.urlencoded({extended:!0})),app.use(require("./controllers")),app.listen(port,(function(){console.log("Listening on port "+port)}));
+//# sourceMappingURL=/sm/73239240ce90319b7a6eddd0aa415ca72c84ad96e9dc2b1e4481d2dab4a292f1.map

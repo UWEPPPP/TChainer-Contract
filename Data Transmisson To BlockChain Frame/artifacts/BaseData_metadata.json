@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Data Transmisson To BlockChain Frame/BaseData.sol": "BaseData"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Data Transmisson To BlockChain Frame/BaseData.sol": {
+			"keccak256": "0xb1f642d4705048461722b24c54b74f17fd9578cfd3eaf263f967d7f92aa98cb1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46dfb51b300b6ee52502766ce2a02840f311b9f6c90f08bbfbaa41a4632fac5f",
+				"dweb:/ipfs/QmP89coWAtF6USzRZsk18kQv5e28B7WYm6DNh7dTgxieF2"
+			]
+		}
+	},
+	"version": 1
+}
