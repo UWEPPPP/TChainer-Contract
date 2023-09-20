@@ -15,7 +15,8 @@ contract DnsContract {
         _;
     }
 
-    constructor(address addr) {
+
+    constructor(address addr) public {
        verifier = VerifierContract(addr); 
     }
 
